@@ -9,7 +9,7 @@ const Store = require('./Src/Routes/productRoute');
 
 //Middleware;
 App.use(express.json());
-App.use(cors({origin:'http://localhost:3000'}))
+App.use(cors({origin:'https://e-comm-sports.netlify.app'}))
 
 
 
